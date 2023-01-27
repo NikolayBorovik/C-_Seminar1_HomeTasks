@@ -10,11 +10,21 @@ if(numberN < 1)
     System.Console.WriteLine("You have entered a wrong number");
 }
 
-int number2 = 1;
+int number2 = 2;
+
+// while(numberN >= number2)
+// {
+//     if(number2 % 2 == 0)
+//     {
+//         System.Console.Write(number2);
+//         System.Console.Write(" ");
+//     }
+// number2 = number2 + 1;
+// }
 
 while(numberN >= number2)
 {
     System.Console.Write(number2);
     System.Console.Write(" ");
-    number2 = number2 + 1;
+    number2 = number2 + 2;
 }
